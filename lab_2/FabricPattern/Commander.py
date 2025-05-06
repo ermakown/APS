@@ -1,0 +1,9 @@
+class Commander:
+    def __init__(self, name):
+        self._name = name
+
+    def command_attack(self): ...
+
+    def command_defend(self): ...
+
+    def command_move(self): ...
