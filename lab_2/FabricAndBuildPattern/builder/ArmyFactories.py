@@ -1,6 +1,14 @@
-from AbstractArmyFactory import AbstractArmyFactory
-from UnitRealizations import Infantry, Cavalry, Artillery
-from ArmyCommanders import InfantryCommander, CavalryCommander, ArtilleryCommander
+from lab_2.FabricAndBuildPattern.base.AbstractArmyFactory import AbstractArmyFactory
+from lab_2.FabricAndBuildPattern.units.UnitRealizations import (
+    Infantry,
+    Cavalry,
+    Artillery,
+)
+from lab_2.FabricAndBuildPattern.commanders.ArmyCommanders import (
+    InfantryCommander,
+    CavalryCommander,
+    ArtilleryCommander,
+)
 
 
 class InfantryArmyFactory(AbstractArmyFactory):

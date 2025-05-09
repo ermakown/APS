@@ -3,10 +3,10 @@ from abc import ABC, abstractmethod
 
 class Unit(ABC):
     @abstractmethod
-    def attack(self): ...
+    def attack(self): pass
 
     @abstractmethod
-    def defend(self): ...
+    def defend(self): pass
 
     @abstractmethod
-    def move(self): ...
+    def move(self): pass
